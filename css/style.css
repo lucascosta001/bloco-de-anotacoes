@@ -20,7 +20,6 @@
 
 body {
     width: 100vw;
-    position: relative;
     color: rgb(219, 219, 219);
 }
 
@@ -35,7 +34,8 @@ header {
     background-color: rgb(24, 23, 23);
     font-family: var(--font-destaque);
     display: flex;
-    position: absolute;
+    position: relative;
+    flex-direction: column;
     left: 0;
     width: 30vw;
     padding: 7px;
@@ -72,20 +72,23 @@ header {
 }
 
 #itens{
-    flex-direction: column;
+    display: block;
+    position: absolute;
     height: 500px;
     width: 350px;
-    top: 5px;
-    left: 25px;
-    /* background-color: white; */
+    background-color: white;
 }
 
+.notes{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 section {
-    position: absolute;
-    left: 30vw;
     background-color: rgb(41, 39, 39);
     width: 70vw;
-    padding: 10px;
     font-family: var(--font-padrao);
 }
 
