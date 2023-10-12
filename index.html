@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Afazeres</title>
+    <title>bloco de notas</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -14,33 +14,24 @@
         <div id="filter">
             <input type="search" name="buscador" id="search">
             <p class="add" onclick="mais()">add</p>
-            <p class="clear" onclick="mais()">clear</p>
-            <p class="line1"></p>
-            <p class="line2"></p>
+            <p class="clear" onclick="clear()">clear</p>
+            <!-- <p class="line1"></p>
+            <p class="line2"></p> -->
         </div>
         
         <div id="itens">
             <table class="notes">
                 <ul class="nota000001">Documentos</ul>
-                <ul class="nota000002">Documentos</ul>
-                <ul class="nota000003">Documentos</ul>
-                <ul class="nota000004">Documentos</ul>
-                <ul class="nota000005">Documentos</ul>
-                <ul class="nota000006">Documentos</ul>
-                <ul class="nota000007">Documentos</ul>
-                <ul class="nota000008">Documentos</ul>
             </table>
-            
-            <p>itens do sistema!</p>
         </div>
     </header>
     <section>
         <div class="infolista">
-            <p>selecione um item</p>
             <div class="nota">
                 <div class="title">marcador</div>
                 <div class="text">texto</div>
             </div>
+            <p><input type="text" name="inptext" id="inptext"></p>
         </div>
     </section>
     <footer>
